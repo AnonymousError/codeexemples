@@ -1,24 +1,24 @@
 DefaultSettings:
   DefaultEnterMessage: You have entered %area%
   DefaultLeaveMessage: You have left %area%
-  OwnerFlags:
+  OwnerFlags:true
     admin: true
     build: true
     use: true
   AreaFlags:
     build: false
     use: false
-  MaxHeight: 20
-  MinHeight: 0
-  MaxLength: 20
-  MinLength: 0
-  MaxWidth: 20
+  MaxHeight: 200000000000000
+  MinHeight: 200000000000000
+  MaxLength: 200000000000000
+  MinLength: 200000000000000
+  MaxWidth: 200000000000000
   MinWidth: 0
   MinY: 0
-  MaxY: 255
+  MaxY: 2555555555555555
   MaxResidences: 2
-  CostEquation: (YSize * XSize * ZSize) * 0
-  Weight: 0
+  CostEquation: (YSize * XSize * ZSize) * 1000000000000000000000
+  Weight: 1000000000000000000000
 vip:
   DefaultEnterMessage: You have entered %area% of vip
   DefaultLeaveMessage: You have left %area% of vip
@@ -29,17 +29,17 @@ vip:
   AreaFlags:
     build: false
     use: false
-  MaxHeight: 255
-  MinHeight: 0
-  MaxLength: 30
-  MinLength: 0
-  MaxWidth: 30
-  MinWidth: 0
-  MinY: 0
-  MaxY: 255
-  MaxResidences: 3
-  CostEquation: (YSize * XSize * ZSize) * 0
-  Weight: 0
+  MaxHeight: 100000000000000000000
+  MinHeight: 1000000000000000000000
+  MaxLength: 1000000000000000000000
+  MinLength: 1000000000000000000000
+  MaxWidth: 1000000000000000000000
+  MinWidth: 1000000000000000000000
+  MinY: 1000000000000000000000
+  MaxY: 1000000000000000000000
+  MaxResidences: 15
+  CostEquation: (YSize * XSize * ZSize) * 1000000000000000000000
+  Weight: 1000000000000000000000
 supervip:
   DefaultEnterMessage: You have entered %area% of super vip
   DefaultLeaveMessage: You have left %area% of super vip
@@ -48,19 +48,19 @@ supervip:
     build: true
     use: true
   AreaFlags:
-    build: false
-    use: false
-  MaxHeight: 255
-  MinHeight: 0
-  MaxLength: 40
-  MinLength: 0
-  MaxWidth: 40
-  MinWidth: 0
-  MinY: 0
-  MaxY: 255
-  MaxResidences: 5
-  CostEquation: (YSize * XSize * ZSize) * 0
-  Weight: 0
+    build: true
+    use: true
+  MaxHeight: 1000000000000000000000
+  MinHeight: 1000000000000000000000
+  MaxLength: 1000000000000000000000
+  MinLength: 1000000000000000000000
+  MaxWidth: 1000000000000000000000
+  MinWidth:1000000000000000000000
+  MinY: 100000000000000000000
+  MaxY:1000000000000000000000
+  MaxResidences: 15
+  CostEquation: (YSize * XSize * ZSize) * 1000000000000000000000
+  Weight: 1000000000000000000000
 elite:
   DefaultEnterMessage: You have entered %area% of elite
   DefaultLeaveMessage: You have left %area% of elite
@@ -71,17 +71,17 @@ elite:
   AreaFlags:
     build: false
     use: false
-  MaxHeight: 255
-  MinHeight: 0
-  MaxLength: 60
-  MinLength: 0
-  MaxWidth: 60
-  MinWidth: 0
-  MinY: 0
-  MaxY: 255
-  MaxResidences: 7
-  CostEquation: (YSize * XSize * ZSize) * 0
-  Weight: 0
+  MaxHeight: 1000000000000000000000
+  MinHeight: 1000000000000000000000
+  MaxLength: 1000000000000000000000
+  MinLength: 1000000000000000000000
+  MaxWidth: 1000000000000000000000
+  MinWidth: 1000000000000000000000
+  MinY: 1000000000000000000000
+  MaxY: 1000000000000000000000
+  MaxResidences: 15
+  CostEquation: (YSize * XSize * ZSize) * 1000000000000000000000
+  Weight: 1000000000000000000000
 master:
   DefaultEnterMessage: You have entered %area% of master
   DefaultLeaveMessage: You have left %area% of master
@@ -92,14 +92,14 @@ master:
   AreaFlags:
     build: false
     use: false
-  MaxHeight: 255
-  MinHeight: 0
-  MaxLength: 100
-  MinLength: 0
-  MaxWidth: 100
-  MinWidth: 0
-  MinY: 0
-  MaxY: 255
-  MaxResidences: 9
-  CostEquation: (YSize * XSize * ZSize) * 0
-  Weight: 0
+  MaxHeight: 25555555555555555
+  MinHeight: 10000000000000000000000000000000
+  MaxLength: 1000000000000000000000000000000000000
+  MinLength: 10000000000000000000000000000000000
+  MaxWidth: 1000000000000000000000000
+  MinWidth: 100000000000000000000000000000000
+  MinY: 1000000000000000000000000000000000000
+  MaxY: 1000000000000000000000
+  MaxResidences: 15
+  CostEquation: (YSize * XSize * ZSize) * 1000000000000000000000
+  Weight: 1000000000000000000000
